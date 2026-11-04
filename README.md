@@ -14,7 +14,7 @@ import { GmailAutoresponder } from 'gmail-autoresponder';
 // API_KEY is optional
 const gmailAutoresponder = new GmailAutoresponder(CLIENT_ID, API_KEY);
 
-const restrictContacts = false; // default
+const restrictContacts = fals; // default
 
 // set vacation settings
 gmailAutoresponder.setAutoresponder('HTML Message', 'Topic', restrictContacts).then(
